@@ -1,0 +1,11 @@
+.table {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.sticky {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background-color: var(--mantine-color-body);
+}

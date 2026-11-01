@@ -1,0 +1,32 @@
+.expander {
+  width: 24px;
+  height: 24px;
+  border-radius: var(--mantine-radius-sm);
+  text-align: center;
+}
+
+.expander:hover {
+  background-color: var(--mantine-color-default-hover);
+}
+
+.expander:focus-visible {
+  outline: 2px solid var(--mantine-primary-color-filled);
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.amount {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.split {
+  background-color: var(--mantine-color-default-hover);
+  font-size: var(--mantine-font-size-sm);
+}
+
+.dimmed {
+  opacity: 0.45;
+}
